@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+h1{
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+
+p{
+    color: #ffffffd5;
+    font-size: 14px;
+    font-family: 'Open Sans' !important;
+    font-weight: 400;
+}
+.my-button{
+    font-weight: bold;
+    border: none;
+    border-radius: 35px;
+    background-color: #8cdae4;
+    transition: all 0.2s;
+    font-family: Raleway !important;
+    font-weight: 700;
+}
+.my-button:hover{
+    background-color: #536dff;
+}
+
+
+
+
+.section-1{
+    padding: 50px;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    background: #1c2230 url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.main-section-1{
+    width: 55%;
+    margin: 0 auto;
+}
+.main-section-1 img{
+    width: 100%;
+}
+
+nav .links a{
+    color: rgba(255, 255, 255, 0.658);
+    text-decoration: none;
+    transition: all 0.2s;
+    font-family: Raleway !important;
+    font-weight: 400 !important;
+    font-size: 14px;
+}
+nav .links a:hover{
+    text-decoration: underline;
+}
+.main-section-1 button{
+    padding: 10px 60px;
+}
+
+
+
+
+
+.section-2{
+    width: 100%;
+    min-height: fit-content;
+    background-color: #181e2a;
+    padding: 70px 0;
+}
+.inner-section-2{
+    height: 100%;
+    width: 90%;
+}
+.box .box-icon{
+    height: 100px;
+    width: 100px;
+}
+
+
+.section-3{
+    padding: 70px 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #181e2a;
+}
+.inner-section-3{
+    width: 90%;
+}
+.section-3-right a{
+    color: #8cdae4;
+    transition: all 0.2s;
+}
+.section-3-right a:hover{
+    color: #ffffffd5;
+}
+
+.section-4{
+    padding: 70px 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #181e2a;
+}
+.inner-section-4{
+    padding: 40px 0;
+    width: 90%;
+    background: url(../images/bg-quotes.png) no-repeat;
+    background-position-y: top;
+    background-position-x: 50px;
+}
+.section-4-box{
+    margin-bottom: 30px;
+}
+.inner-section-4-box{
+    background-color: #21293c;
+    border: 3px solid #ffffff05;
+}
+.img-box{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.profile-name{
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+.profile-post{
+    font-size: 11px;
+}
+
+
+
+.section-5{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.upper, .lower{
+    height: 50%;
+    border: none;
+}
+.upper{
+    background-color: #181e2a;
+}
+.lower{
+    background-color: #0c1524;
+}
+.holder{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.inn-holder{
+    border-radius: 10px;
+    height: fit-content;
+    background-color: #1c2330;
+    box-shadow: 6px 7px 13px -3px rgba(0, 0, 0, 0.253);
+}
+.section-5-form input, .section-5-form button{
+    border-radius: 30px;
+    border: none;
+}
+.section-5-form input{
+    color: #0c1524;
+}
+.section-5-form input::placeholder{
+    color: #d1d1d1;
+}
+.section-5-form input:focus{
+    outline: none !important;
+}
+
+
+
+footer{
+    background-color: #0c1524;
+    height: fit-content;
+    width: 100%;
+    padding: 50px 0;
+    font-size: 14px;
+}
+.inner-footer{
+    width: 85%;
+}
+
+
+.cpr{
+    height: fit-content;
+    color: #8cdae4;
+    font-size: 12px;
+    background-color: #151e2b;
+}
+
+
+
+
+@media only screen and (max-width: 765px) {
+    .section-1{
+        padding: 17px 10px;
+        background: #1c2230 url(../images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+    .main-section-1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main-section-1 img{
+        width: 100%;
+    }
+    p{
+        font-size: 15px;
+    }
+}
